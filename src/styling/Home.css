@@ -1,0 +1,132 @@
+button {
+	float: left;
+	width: 200px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+/* 
+button {
+	display: block;
+	padding: 8px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} */
+.body {
+	background-color: white;
+	position: relative;
+}
+
+a {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	font-weight: 400;
+}
+nav {
+	display: flex;
+	background-color: #37b4a2;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 15%;
+	height: 8%;
+	position: absolute;
+	top: 0px;
+	right: 40px;
+	width: 68%;
+}
+.rightSide {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px;
+	top: 9%;
+	right: 3%;
+	height: 80%;
+	width: 25%;
+	/* border: 1px solid black; */
+}
+.box {
+	width: 70%;
+	height: 25%;
+	border: 1px solid green;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+p {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.navbar-btn {
+	width: 20%;
+	height: 80%;
+	border-radius: 10px;
+	transition: transform 125ms ease-in;
+	cursor: pointer;
+	border-color: white;
+	font-weight: bold;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.navbar-btn:hover {
+	transform: scale(1.1);
+	background-color: #cbdddb;
+}
+button:hover {
+	transform: scale(1.1);
+}
+
+.home-btn {
+	transition: transform 125ms ease-in;
+	cursor: pointer;
+}
+.home-btn:hover {
+	transform: scale(1.1);
+	background-color: #37b4a165;
+}
+
+.Overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(38, 176, 171, 0.511);
+}
+
+.form-inp {
+	margin-bottom: 3%;
+	height: 20%;
+	text-align: center;
+	width: 80%;
+}
+
+.form-btn-save {
+	width: 80%;
+	height: 20%;
+	background-color: #37b4a2;
+	color: white;
+	border: 1px solid #37b4a2;
+	cursor: pointer;
+}
+.spans {
+	border: 1px solid black;
+	width: 400px;
+	height: 50px;
+	border-bottom: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+}
