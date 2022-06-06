@@ -18,7 +18,7 @@ const Register = () => {
 		event.preventDefault();
 		var { uname, pass, name, surname, cash } = document.forms[0];
 
-		fetch(`http://localhost:8080/api/customer/register`, {
+		fetch(`https://uno-portfolio.herokuapp.com/api/customer/register`, {
 			headers: {
 				Accept: "application/json",
 				"Content-Type": "application/json",

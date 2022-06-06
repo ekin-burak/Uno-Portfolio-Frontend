@@ -52,7 +52,7 @@ function Home() {
 
 	useEffect(() => {
 		const username = Authentication.getUserName();
-		fetch(`http://localhost:8080/api/customer/users/${username}`)
+		fetch(`https://uno-portfolio.herokuapp.com/api/customer/users/${username}`)
 			.then((res) => res.json())
 			.then((json) => {
 				setRealizedPnl(json.realized_pnl);
@@ -69,7 +69,7 @@ function Home() {
 				});
 			});
 		setTimeout(() => {
-			fetch(`http://localhost:8080/api/balance/${username}`)
+			fetch(`https://uno-portfolio.herokuapp.com/api/balance/${username}`)
 				.then((res) => res.json())
 				.then((json) => {
 					if (json.length == 0) {
@@ -168,7 +168,7 @@ function Home() {
 		const username = Authentication.getUserName();
 
 		fetch(
-			`http://localhost:8080/api/customer/change/capital/${username}/${amount.value}`,
+			`https://uno-portfolio.herokuapp.com/api/customer/change/capital/${username}/${amount.value}`,
 			{
 				headers: {
 					Accept: "application/json",

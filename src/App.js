@@ -35,7 +35,7 @@ function App() {
 			var { uname, pass } = document.forms[0];
 
 			fetch(
-				`http://localhost:8080/api/customer/login/${uname.value}/${pass.value}`,
+				`https://uno-portfolio.herokuapp.com/api/customer/login/${uname.value}/${pass.value}`,
 				{
 					headers: {
 						Accept: "application/json",

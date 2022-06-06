@@ -19,7 +19,7 @@ function RecordTrade() {
 
 		if (trade == "Purchase") {
 			fetch(
-				`http://localhost:8080/api/balance/add/${username}/${price.value}/${amount.value}/${date}/${asset.value}`,
+				`https://uno-portfolio.herokuapp.com/api/balance/add/${username}/${price.value}/${amount.value}/${date}/${asset.value}`,
 				{
 					headers: {
 						Accept: "application/json",
@@ -38,7 +38,7 @@ function RecordTrade() {
 			});
 		} else {
 			fetch(
-				`http://localhost:8080/api/balance/sell/${username}/${price.value}/${amount.value}/${date}/${asset.value}`,
+				`https://uno-portfolio.herokuapp.com/api/balance/sell/${username}/${price.value}/${amount.value}/${date}/${asset.value}`,
 				{
 					headers: {
 						Accept: "application/json",

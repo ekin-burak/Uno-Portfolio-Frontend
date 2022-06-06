@@ -17,7 +17,7 @@ function BalanceDetail() {
 		"965d62502f766e4fa833508437b0503b1eee778d4c31f947215fc5216e287aa1";
 	useEffect(() => {
 		const username = Authentication.getUserName();
-		fetch(`http://localhost:8080/api/balance/${username}`)
+		fetch(`https://uno-portfolio.herokuapp.com/api/balance/${username}`)
 			.then((res) => res.json())
 			.then((json) => {
 				arr1 = json;
