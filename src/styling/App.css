@@ -45,6 +45,7 @@ body {
 	height: 80%;
 	width: 100%;
 	display: flex;
+	text-security: disc;
 	/* align-items: center; */
 	/* border: 5px solid black; */
 	flex-direction: column;

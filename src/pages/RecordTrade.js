@@ -101,7 +101,6 @@ function RecordTrade() {
 				<button onClick={() => navigate("/Home")} className="navbar-btn">
 					{Authentication.getUserName()}
 				</button>
-				<button className="navbar-btn">Change Capital</button>
 				<button className="navbar-btn">Record Trade Activity</button>
 
 				<button onClick={() => navigate("/Graphs")} className="navbar-btn">

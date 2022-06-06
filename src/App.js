@@ -79,6 +79,7 @@ function App() {
 							required
 						/>
 						<input
+							type="password"
 							className="textInput"
 							name="pass"
 							placeholder="password"

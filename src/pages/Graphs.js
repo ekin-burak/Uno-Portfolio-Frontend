@@ -47,7 +47,6 @@ function Home() {
 				<button onClick={() => navigate("/Home")} className="navbar-btn">
 					{Authentication.getUserName()}
 				</button>
-				<button className="navbar-btn">Change Capital</button>
 				<button
 					onClick={() => {
 						navigate("/RecordTrade");
